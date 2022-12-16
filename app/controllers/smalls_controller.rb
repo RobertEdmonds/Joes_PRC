@@ -1,0 +1,2 @@
+class SmallsController < ApplicationController
+end

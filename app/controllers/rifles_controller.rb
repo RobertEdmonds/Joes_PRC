@@ -1,0 +1,2 @@
+class RiflesController < ApplicationController
+end

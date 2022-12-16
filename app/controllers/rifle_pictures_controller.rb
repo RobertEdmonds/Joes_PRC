@@ -1,0 +1,2 @@
+class RiflePicturesController < ApplicationController
+end

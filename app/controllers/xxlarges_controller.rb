@@ -1,0 +1,2 @@
+class XxlargesController < ApplicationController
+end

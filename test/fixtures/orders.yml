@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: one
+  rifle_id: one
+  apperral_id: one
+
+two:
+  user_id: two
+  rifle_id: two
+  apperral_id: two

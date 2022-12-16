@@ -1,0 +1,2 @@
+class XsmallsController < ApplicationController
+end

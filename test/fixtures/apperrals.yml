@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  description: MyString
+  xs_inventory: 1
+  s_inventory: 1
+  medium_inventory: 1
+  large_inventory: 1
+  xl_inventory: 1
+  xxl_inventory: 1
+
+two:
+  description: MyString
+  xs_inventory: 1
+  s_inventory: 1
+  medium_inventory: 1
+  large_inventory: 1
+  xl_inventory: 1
+  xxl_inventory: 1

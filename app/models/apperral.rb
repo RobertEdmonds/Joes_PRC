@@ -1,0 +1,2 @@
+class Apperral < ApplicationRecord
+end

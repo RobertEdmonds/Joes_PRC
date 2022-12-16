@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  rifle_id: one
+  image_url: MyString
+  order_number: 1
+
+two:
+  rifle_id: two
+  image_url: MyString
+  order_number: 1

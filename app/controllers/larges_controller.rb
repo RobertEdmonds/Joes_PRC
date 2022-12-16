@@ -1,0 +1,2 @@
+class LargesController < ApplicationController
+end
