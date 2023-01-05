@@ -7,8 +7,9 @@ class User < ApplicationRecord
     validates :address, presence: true, uniqueness: true 
     validates :password, confirmation: true 
 
-    has_many :orders
+    has_many :orders, dependent: :destroy
     has_many :rifles, through: :orders 
     has_many :apperrals, through: :orders 
     has_many :parts 
+   
 end

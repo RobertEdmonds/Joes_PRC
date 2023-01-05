@@ -7,6 +7,6 @@ class Apperral < ApplicationRecord
     has_many :larges  
     has_many :xlarges
     has_many :xxlarges 
-    has_many :orders 
+    has_many :orders, dependent: :destroy 
 
 end
