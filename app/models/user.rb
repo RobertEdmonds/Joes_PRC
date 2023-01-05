@@ -10,4 +10,5 @@ class User < ApplicationRecord
     has_many :orders
     has_many :rifles, through: :orders 
     has_many :apperrals, through: :orders 
+    has_many :parts 
 end
