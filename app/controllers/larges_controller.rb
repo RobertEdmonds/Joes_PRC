@@ -8,12 +8,12 @@ class LargesController < ApplicationController
     end
 
     def create
-        large = Large.create!(apperral_params)
+        large = Large.create!(large_params)
         render json: large, status: :created 
     end
 
     def update 
-        @large.update!(apperral_params)
+        @large.update!(large_params)
         render json: @large, status: :created 
     end
 
