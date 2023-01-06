@@ -26,12 +26,12 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_17_001617) do
     t.index ["apperral_id"], name: "index_larges_on_apperral_id"
   end
 
-  create_table "media", force: :cascade do |t|
+  create_table "medium", force: :cascade do |t|
     t.integer "apperral_id", null: false
     t.integer "amount"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["apperral_id"], name: "index_media_on_apperral_id"
+    t.index ["apperral_id"], name: "index_medium_on_apperral_id"
   end
 
   create_table "orders", force: :cascade do |t|
@@ -122,7 +122,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_17_001617) do
   end
 
   add_foreign_key "larges", "apperrals"
-  add_foreign_key "media", "apperrals"
+  add_foreign_key "medium", "apperrals"
   add_foreign_key "orders", "apperrals"
   add_foreign_key "orders", "rifles"
   add_foreign_key "orders", "users"

@@ -1,6 +1,6 @@
 class XlargesController < ApplicationController
     skip_before_action :authorize, only: [:index]
-    before_action :set_large, only: [:update, :destroy]
+    before_action :set_xlarge, only: [:update, :destroy]
     before_action :authorize_user, only: [:create, :update, :destroy]
 
     def index 

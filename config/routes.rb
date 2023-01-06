@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   resources :xxlarges
   resources :xlarges
   resources :larges
-  resources :media
+  resources :medium
   resources :smalls
   resources :xsmalls
   resources :apperrals
